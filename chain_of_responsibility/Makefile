@@ -1,5 +1,5 @@
 
-TOPDIR := ..
+TOPDIR := ../..
 
 TARGET_PROGS =
 TARGET_PROGS += chain_of_responsibilityTest 
