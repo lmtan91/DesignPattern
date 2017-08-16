@@ -18,7 +18,7 @@ class MazeGame {
 public:
    Maze* CreateMaze();
 
-   Maze* CreateMaze( MazeFactory* fact );
+   Maze* CreateMaze( MazeFactory& fact );
 
    virtual Maze* MakeMaze() const
    {

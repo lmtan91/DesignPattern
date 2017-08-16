@@ -18,7 +18,7 @@ Maze::Maze()
 Room* Maze::RoomNo(int n) const
 {
    std::vector<Room*>::const_iterator it = mRoomVec->begin();
-   for ( ; it != mRoomVec->empty(); ++it)
+   for ( ; it != mRoomVec->end(); ++it)
    {
       if ( (*it)->GetRoomNumber() == n )
       {

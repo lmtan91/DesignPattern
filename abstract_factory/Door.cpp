@@ -25,6 +25,17 @@ Door::Door(const Door& other)
    _room2 = other._room2;
 }
 
+Door::~Door()
+{
+
+}
+
+void Door::Initialize (Room* r1, Room* r2)
+{
+    _room1 = r1;
+    _room2 = r2;
+}
+
 Door* Door::Clone() const
 {
    return new Door(*this);

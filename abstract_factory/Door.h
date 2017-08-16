@@ -18,6 +18,7 @@ public:
    Door();
    Door(Room* r1, Room* r2);
    Door(const Door&);
+   virtual ~Door();
 
    virtual void Initialize(Room*, Room*);
    virtual Door* Clone() const;

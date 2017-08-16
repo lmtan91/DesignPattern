@@ -7,6 +7,10 @@
 
 #include "MazeFactory.h"
 #include "BomedMazeFactory.h"
+#include "Maze.h"
+#include "Wall.h"
+#include "Room.h"
+#include "Door.h"
 #include <iostream>
 #include <cstring>
 #include <cstdlib>

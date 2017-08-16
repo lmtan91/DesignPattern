@@ -8,6 +8,7 @@
 #ifndef ABSTRACT_FACTORY_BOMEDMAZEFACTORY_H_
 #define ABSTRACT_FACTORY_BOMEDMAZEFACTORY_H_
 
+#include "MazeFactory.h"
 class Wall;
 class Room;
 
