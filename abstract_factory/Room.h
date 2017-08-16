@@ -8,8 +8,8 @@
 #ifndef _ROOM_H_
 #define _ROOM_H_
 #include "MapSite.h"
+#include "MazeTypes.h"
 
-enum Direction {North, South, East, West};
 
 class Room : MapSite
 {
